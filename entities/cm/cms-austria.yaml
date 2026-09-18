@@ -54,7 +54,7 @@ offers:
             value: P3Y
       consideration:
         kind: variable
-        description: equIP members pay for CMS legal advice at the discounted hourly rates; the cited page does not state a membership fee.
+        description: equIP members receive CMS legal advice on attractive terms at the discounted hourly rates.
     eligibility:
       rule:
         criterion_id: cri_01
