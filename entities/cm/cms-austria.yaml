@@ -45,7 +45,7 @@ offers:
         - benefit_id: ben_01
           kind: discount
           applies_to: standard hourly rates
-          description: 50% discount on standard hourly rates for 3 years.
+          description: 50% discount on standard hourly rates for 3 years, up to EUR 25,000 discount per year.
           percentage:
             kind: exact
             basis_points: 5000
@@ -54,7 +54,7 @@ offers:
             value: P3Y
       consideration:
         kind: variable
-        description: equIP members receive CMS legal advice on attractive terms at the discounted hourly rates.
+        description: equIP members pay the discounted hourly rates for CMS legal advice on attractive terms.
     eligibility:
       rule:
         criterion_id: cri_01
