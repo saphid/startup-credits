@@ -19,10 +19,6 @@ sources:
     url: https://cms.law/en/aut/insight/start-ups
   - source_id: src_4289462033c29c08952876d388a8176cf3124ad4348538e7cf05b61e412f4c11
     url: https://cms.law/en/aut/insight/start-ups/cms-equip-membership
-  - source_id: src_401ce53c8f7f95f79b3a3ef1e9ba1e2e2f9ca160fbdb7d70de68c6ab75df8b96
-    url: https://cms.law/content/download/486373/file/Application_Form_EquIP_2026.pdf
-  - source_id: src_b332dca954ffd3c3be895e4655394cfb560c2b89f71a702aebc22a8e0a9ea2b5
-    url: https://cms.law/content/download/479241/file/BRO-equiP-EN-072024.pdf
   - source_id: src_9018749f27d39638cbb66c8d158108ac56cae6b45649283623d0390473c68154
     url: https://cms.law/en/aut/footer-configuration/Legal-Information
 programs:
@@ -34,7 +30,6 @@ programs:
     source_ids:
       - src_177e1b047f3ddb7508195c224cc8064a07adb0ceb9f7c25956ee00c71ceda18a
       - src_4289462033c29c08952876d388a8176cf3124ad4348538e7cf05b61e412f4c11
-      - src_b332dca954ffd3c3be895e4655394cfb560c2b89f71a702aebc22a8e0a9ea2b5
 offers:
   - offer_id: off_01m1tjpy1yapje6hy0e14dvv89
     program_id: prg_01m1tjpy1ye2bv8v6yrgv5qz9a
@@ -49,8 +44,8 @@ offers:
       benefits:
         - benefit_id: ben_01
           kind: discount
-          applies_to: standard hourly legal rates
-          description: The discount is capped at EUR25,000 per year during the three-year equIP membership. This is a ceiling on the discount, not a cash credit or a ceiling on eligible fees.
+          applies_to: standard hourly rates
+          description: equIP members receive a 50% discount on CMS standard hourly rates for the three-year membership, up to EUR 25,000 discount per year.
           percentage:
             kind: exact
             basis_points: 5000
@@ -58,7 +53,8 @@ offers:
             kind: exact
             value: P3Y
       consideration:
-        kind: none
+        kind: unknown
+        description: The source record did not establish separate consideration.
     eligibility:
       rule:
         criterion_id: cri_01
@@ -71,11 +67,9 @@ offers:
     access:
       availability: public
       method: contact
-      url: https://cms.law/content/download/486373/file/Application_Form_EquIP_2026.pdf
-      instructions: Complete the linked application and submit it to the contact address published in the form with a pitch deck, business plan and financial plan. Programme participation is free; legal services remain chargeable at the discounted rates.
+      url: https://cms.law/en/aut/insight/start-ups/cms-equip-membership
+      instructions: Contact the CMS equIP Austria team through the key contact published on the CMS equIP membership page to apply for membership.
     source_ids:
       - src_177e1b047f3ddb7508195c224cc8064a07adb0ceb9f7c25956ee00c71ceda18a
       - src_4289462033c29c08952876d388a8176cf3124ad4348538e7cf05b61e412f4c11
-      - src_401ce53c8f7f95f79b3a3ef1e9ba1e2e2f9ca160fbdb7d70de68c6ab75df8b96
-      - src_b332dca954ffd3c3be895e4655394cfb560c2b89f71a702aebc22a8e0a9ea2b5
       - src_9018749f27d39638cbb66c8d158108ac56cae6b45649283623d0390473c68154
