@@ -45,7 +45,7 @@ offers:
         - benefit_id: ben_01
           kind: discount
           applies_to: standard hourly rates
-          description: equIP members receive a 50% discount on CMS standard hourly rates for the three-year membership, up to EUR 25,000 discount per year.
+          description: 50% discount on standard hourly rates for three years, up to EUR 25,000 discount per year.
           percentage:
             kind: exact
             basis_points: 5000
@@ -53,8 +53,8 @@ offers:
             kind: exact
             value: P3Y
       consideration:
-        kind: unknown
-        description: The source record did not establish separate consideration.
+        kind: variable
+        description: equIP members pay the discounted hourly rates for CMS legal services; the cited page does not state a membership fee.
     eligibility:
       rule:
         criterion_id: cri_01
@@ -68,7 +68,7 @@ offers:
       availability: public
       method: contact
       url: https://cms.law/en/aut/insight/start-ups/cms-equip-membership
-      instructions: Contact the CMS equIP Austria team through the key contact published on the CMS equIP membership page to apply for membership.
+      instructions: Contact the CMS equIP membership team through the published Vienna key contact, partner Florian Mayer, to apply for equIP membership.
     source_ids:
       - src_177e1b047f3ddb7508195c224cc8064a07adb0ceb9f7c25956ee00c71ceda18a
       - src_4289462033c29c08952876d388a8176cf3124ad4348538e7cf05b61e412f4c11
