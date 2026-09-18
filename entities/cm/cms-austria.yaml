@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-09-06T05:22:58.238Z
   category: legal-compliance
 profile:
+  summary: CMS Reich-Rohrwig Hainz Rechtsanwälte GmbH is an Austrian CMS member firm providing legal advice to businesses, including startups.
   description: CMS Reich-Rohrwig Hainz Rechtsanwälte GmbH is an Austrian law firm and CMS member firm providing legal services.
   links:
     site: https://cms.law/en/aut/insight/start-ups
@@ -23,7 +24,7 @@ sources:
   - source_id: src_b332dca954ffd3c3be895e4655394cfb560c2b89f71a702aebc22a8e0a9ea2b5
     url: https://cms.law/content/download/479241/file/BRO-equiP-EN-072024.pdf
   - source_id: src_9018749f27d39638cbb66c8d158108ac56cae6b45649283623d0390473c68154
-    url: https://cms.law/en/aut/footer-configuration/legal-information
+    url: https://cms.law/en/aut/footer-configuration/Legal-Information
 programs:
   - program_id: prg_01m1tjpy1ye2bv8v6yrgv5qz9a
     program_slug: cms-equip-austria
@@ -77,3 +78,4 @@ offers:
       - src_4289462033c29c08952876d388a8176cf3124ad4348538e7cf05b61e412f4c11
       - src_401ce53c8f7f95f79b3a3ef1e9ba1e2e2f9ca160fbdb7d70de68c6ab75df8b96
       - src_b332dca954ffd3c3be895e4655394cfb560c2b89f71a702aebc22a8e0a9ea2b5
+      - src_9018749f27d39638cbb66c8d158108ac56cae6b45649283623d0390473c68154
