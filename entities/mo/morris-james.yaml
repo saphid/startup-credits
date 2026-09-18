@@ -39,8 +39,8 @@ offers:
       benefits:
         - benefit_id: ben_01
           kind: discount
-          applies_to: standard corporate legal rates
-          description: Discount applies during the first year of engagement.
+          applies_to: standard corporate rates
+          description: Qualifying companies receive a discount on the firm's standard corporate rates for the first year of their engagement with the firm.
           percentage:
             kind: exact
             basis_points: 3000
@@ -48,7 +48,8 @@ offers:
             kind: exact
             value: P1Y
       consideration:
-        kind: none
+        kind: unknown
+        description: The source record did not establish separate consideration.
     eligibility:
       rule:
         criterion_id: cri_01
