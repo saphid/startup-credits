@@ -26,7 +26,7 @@ programs:
     program_slug: cms-equip-austria
     program_slug_aliases: []
     title: CMS equIP
-    summary: CMS equIP is CMS Austria's legal accelerator for start-ups based on innovative business ideas or technologies, with a three-year membership.
+    summary: equIP is a legal accelerator developed by CMS especially for start-ups based on innovative business ideas or technologies.
     source_ids:
       - src_177e1b047f3ddb7508195c224cc8064a07adb0ceb9f7c25956ee00c71ceda18a
       - src_4289462033c29c08952876d388a8176cf3124ad4348538e7cf05b61e412f4c11
@@ -36,7 +36,7 @@ offers:
     offer_slug: equip-legal-rate-discount
     offer_slug_aliases: []
     title: 50% off standard hourly rates with CMS equIP membership
-    summary: CMS equIP members get 50% off CMS Austria's standard hourly rates for 3 years, up to EUR 25,000 of discount per year, plus start-up events and access to participating CMS offices.
+    summary: equIP membership lasts 3 years and includes a 50% discount on standard hourly rates for 3 years, up to EUR 25,000 discount per year.
     lifecycle:
       status: active
       effective_from: 2026-09-06T05:22:58.238Z
