@@ -10,10 +10,10 @@ entity:
       valid_from: 2026-09-06T05:22:58.238Z
   category: legal-compliance
 profile:
-  summary: CMS Reich-Rohrwig Hainz Rechtsanwälte GmbH is an Austrian CMS member firm providing legal advice to businesses, including startups.
-  description: CMS Reich-Rohrwig Hainz Rechtsanwälte GmbH is an Austrian law firm and CMS member firm providing legal services.
+  summary: CMS Reich-Rohrwig Hainz is the CMS member firm in Austria, a Vienna law firm advising businesses, including start-ups, on legal and tax matters.
+  description: CMS Reich-Rohrwig Hainz Rechtsanwälte GmbH is the Austrian CMS member firm, a Vienna law firm that provides legal and tax advice.
   links:
-    site: https://cms.law/en/aut/insight/start-ups
+    site: https://cms.law/en/aut/
 sources:
   - source_id: src_177e1b047f3ddb7508195c224cc8064a07adb0ceb9f7c25956ee00c71ceda18a
     url: https://cms.law/en/aut/insight/start-ups
@@ -25,8 +25,8 @@ programs:
   - program_id: prg_01m1tjpy1ye2bv8v6yrgv5qz9a
     program_slug: cms-equip-austria
     program_slug_aliases: []
-    title: CMS equIP Austria
-    summary: A legal accelerator for startups with innovative business ideas or technologies.
+    title: CMS equIP
+    summary: CMS equIP is CMS Austria's legal accelerator for start-ups based on innovative business ideas or technologies, with a three-year membership.
     source_ids:
       - src_177e1b047f3ddb7508195c224cc8064a07adb0ceb9f7c25956ee00c71ceda18a
       - src_4289462033c29c08952876d388a8176cf3124ad4348538e7cf05b61e412f4c11
@@ -35,32 +35,35 @@ offers:
     program_id: prg_01m1tjpy1ye2bv8v6yrgv5qz9a
     offer_slug: equip-legal-rate-discount
     offer_slug_aliases: []
-    title: equIP Legal Rate Discount
-    summary: Startup equIP members receive 50% off standard hourly legal rates for three years, capped at EUR25,000 of discount per year.
+    title: 50% off standard hourly rates with CMS equIP membership
+    summary: CMS equIP members get 50% off CMS Austria's standard hourly rates for 3 years, up to EUR 25,000 of discount per year, plus start-up events and access to participating CMS offices.
     lifecycle:
       status: active
       effective_from: 2026-09-06T05:22:58.238Z
     economics:
+      consideration:
+        kind: variable
+        description: Members pay CMS's standard hourly rates less the 50% discount during the 3-year membership, with the discount capped at EUR 25,000 per year.
       benefits:
         - benefit_id: ben_01
           kind: discount
-          applies_to: standard hourly rates
-          description: 50% discount on standard hourly rates for 3 years.
+          applies_to: Standard hourly rates
+          description: 50% discount on standard hourly rates for 3 years, up to EUR 25,000 discount per year.
           percentage:
             kind: exact
             basis_points: 5000
           duration:
             kind: exact
             value: P3Y
-      consideration:
-        kind: unknown
-        description: The source record did not establish separate consideration.
+        - benefit_id: ben_02
+          kind: other
+          description: Contact with investors, decision makers and business partners at exclusive events, and use of equIP at all participating CMS offices.
     eligibility:
       rule:
         criterion_id: cri_01
         kind: manual
-        reason: external-verification
-        statement: The startup must apply for and become a member of CMS equIP in Austria, a programme for startups based on innovative business ideas or technologies.
+        reason: vendor-discretion
+        statement: The start-up is based on an innovative business idea or technology and is accepted as a member of CMS equIP after applying.
     roles:
       terms_authority_entity_id: ent_01m1tjpy1xd3br53m1rrrd8kss
       access_operator_entity_id: ent_01m1tjpy1xd3br53m1rrrd8kss
@@ -68,7 +71,7 @@ offers:
       availability: public
       method: form
       url: https://cms.law/en/aut/insight/start-ups
-      instructions: Apply through the "Apply now" link on the CMS equIP start-ups page to open the application form.
+      instructions: Use Apply now on the CMS equIP page to download the equIP application form.
     source_ids:
       - src_177e1b047f3ddb7508195c224cc8064a07adb0ceb9f7c25956ee00c71ceda18a
       - src_4289462033c29c08952876d388a8176cf3124ad4348538e7cf05b61e412f4c11
