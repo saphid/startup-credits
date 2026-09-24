@@ -38,7 +38,7 @@ offers:
     economics:
       consideration:
         kind: variable
-        description: Qualifying companies pay Morris James's standard corporate rates less the 30% discount for the first year of their engagement.
+        description: The startup receives a discount of 30% to Morris James's standard corporate rates for the first year of its engagement.
       benefits:
         - benefit_id: ben_01
           kind: discount
