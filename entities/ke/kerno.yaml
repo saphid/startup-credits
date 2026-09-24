@@ -13,8 +13,7 @@ profile:
   summary: Kerno is an AI backend testing tool that tests code changes against a team's real stack and dependencies.
   description: Kerno, operated by FYCK Limited, is an AI backend testing tool that runs regression and security tests on code changes against a team's live stack.
   links:
-    site: https://www.kerno.io/
-    pricing: https://www.kerno.io/pricing/
+    site: https://kerno.io/
 sources:
   - source_id: src_f755931a0322803ae6974f092fdecc5679fdbe84a67ef383d77877d4f9b3be50
     url: https://www.kerno.io/pricing/
@@ -33,34 +32,20 @@ offers:
     economics:
       consideration:
         kind: variable
-        description: Kerno for Startups costs USD 25 per developer per month instead of USD 50 for Kerno Pro, with the price locked in for the first two years.
+        description: The startup receives 50% off Kerno.
       benefits:
         - benefit_id: ben_01
           kind: discount
-          applies_to: Kerno Pro
-          description: 50% off Kerno Pro, USD 25 instead of USD 50 per developer per month, locked in for the first two years.
+          description: Kerno for Startups is $25 per developer per month, 50% off Kerno Pro, locked in for your first two years.
           percentage:
             kind: exact
             basis_points: 5000
-          duration:
-            kind: exact
-            value: P2Y
     eligibility:
       rule:
-        kind: all
-        rules:
-          - criterion_id: cri_01
-            kind: manual
-            reason: external-verification
-            statement: The company is a pre-Series A startup.
-          - criterion_id: cri_02
-            kind: predicate
-            fact: company.annual_revenue_usd
-            operator: lt
-            value:
-              type: number
-              value: 2000000
-            statement: The company had under USD 2M revenue in the past 12 months.
+        kind: manual
+        criterion_id: cri_01
+        reason: external-verification
+        statement: Pre-Series A startups with under $2M revenue in the past 12 months.
     roles:
       terms_authority_entity_id: ent_01m1tk5c8arff7qrc0s3my86gt
       access_operator_entity_id: ent_01m1tk5c8arff7qrc0s3my86gt
